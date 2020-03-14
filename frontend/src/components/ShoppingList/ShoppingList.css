@@ -1,0 +1,47 @@
+.ShoppingList {
+  height: 100%;
+  width: 100%;
+}
+
+.ShoppingList-Body {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  text-align: center
+}
+
+.ShoppingList-Body-Done {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  text-align: center;
+  background: repeating-linear-gradient(
+    -45deg,
+    #00ad11,
+    #00ad11 30px,
+    #ffffff 30px,
+    #ffffff 60px
+  );
+}
+
+.ShoppingList-Label {
+  width: 60%;
+  height: 100px;
+  margin: 0 20% 0 20%;
+  padding-top: 20px;
+  border-left: solid 2px;
+  border-right: solid 2px;
+  border-bottom: solid 2px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+  background: #ffffff;
+}
+
+.ShoppingList-List {
+  list-style-type: none;
+}
+
+.ShoppingList-List-Entry {
+  font-size: 24px;
+}
