@@ -1,6 +1,6 @@
 *.zip
 secret.tfvars
-.terraform
+.terraform*
 **/node_modules
 bridge-frontend/node_modules
 lambda/example-event.json
