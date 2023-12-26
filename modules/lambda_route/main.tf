@@ -53,7 +53,7 @@ resource "aws_lambda_function" "lambda" {
   function_name                  = var.lambda_name
   role                           = aws_iam_role.lambda.arn
   handler                        = "main.main"
-  runtime                        = "nodejs16.x"
+  runtime                        = "nodejs20.x"
   timeout                        = var.lambda_timeout
   reserved_concurrent_executions = 1
   source_code_hash               = data.archive_file.lambda.output_base64sha256
